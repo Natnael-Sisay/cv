@@ -1,0 +1,145 @@
+body{
+  margin: 0;
+  color: #40514e;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  font-size: 4rem;
+  font-family: 'Montserrat', cursive;
+  margin:50px auto 0 auto;
+  width: 10%;
+  color: #66bfbf;
+}
+
+h2{
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #66bfbf;
+
+}
+
+p{
+  line-height: 2;
+
+}
+h3{
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+ .profile{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.top-container{
+  background-color: #c9f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-section{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 60px;
+}
+.bottom-cloud{
+    height: 90px;
+    width: 160px;
+
+}
+.top-cloud{
+  height: 90px;
+  width: 160px;
+}
+.mountain{
+  height: 250px;
+  width: 650px;
+}
+/* .hey{
+  margin-top: 90px;
+  margin-bottom: 50px;
+} */
+
+.mySkills{
+  margin-top: 200px;
+  margin-bottom: -100px;
+  font-size: 2rem;
+}
+a{
+   color: black;
+   text-decoration: none;
+   margin: 10px 20px;
+   transition: 0.5s;
+ }
+
+a:hover{
+   color: #fff;
+ }
+hr{
+  border-bottom: none;
+  border-radius: 10px;
+  width:4%;
+  border: solid #eaf6f6 6px;
+  margin: 100px auto;
+}
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #4a3f4a;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #3498db;
+  padding: 9px 25px 11px 26px;
+  text-decoration: none;
+  transition: 0.5s
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.skill-row{
+  width: 50%;
+  margin:200px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.playBasket{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.playSoccer{
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.contact-message{
+  margin: 40px auto 60px;
+}
